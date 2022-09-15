@@ -1,7 +1,6 @@
 import Comment from "../components/Comment";
 import PostOwner from "../components/PostOwner";
 import Reply from "../components/Reply";
-import { comments } from "../libs/comments";
 
 export default function Home() {
   return (
@@ -19,6 +18,8 @@ export default function Home() {
           name="Worapitcha Muangyot"
           id="640610666"
         />
+
+        <Comment />
 
         {/* Reply Example */}
         <div className="d-flex gap-2 my-2 ps-5">
